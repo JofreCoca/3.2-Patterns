@@ -1,4 +1,4 @@
-public class Pizza {
+public abstract class Pizza {
     private String size;
     private String dough;
     private String toppings;
