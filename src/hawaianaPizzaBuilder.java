@@ -2,6 +2,11 @@ public class hawaianaPizzaBuilder implements PizzaBuilder{
     protected Pizza pizza;
 
     @Override
+    public void newPizza() {
+        pizza=new Pizza();
+    }
+
+    @Override
     public void setSize() {
         pizza.setSize("median");
     }

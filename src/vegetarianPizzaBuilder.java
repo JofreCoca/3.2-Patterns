@@ -2,6 +2,11 @@ public class vegetarianPizzaBuilder implements PizzaBuilder{
     protected Pizza pizza;
 
     @Override
+    public void newPizza() {
+        pizza=newPizza();
+    }
+
+    @Override
     public void setSize() {
         pizza.setSize("median");
     }
