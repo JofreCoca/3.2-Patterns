@@ -20,4 +20,9 @@ public class hawaianaPizzaBuilder implements PizzaBuilder{
     public void setToppings() {
         pizza.setToppings("pineapple, cheese and tomato");
     }
+
+    @Override
+    public Pizza getPizza() {
+        return pizza;
+    }
 }

@@ -3,7 +3,7 @@ public class vegetarianPizzaBuilder implements PizzaBuilder{
 
     @Override
     public void newPizza() {
-        pizza=newPizza();
+        pizza=new Pizza();
     }
 
     @Override
@@ -19,5 +19,10 @@ public class vegetarianPizzaBuilder implements PizzaBuilder{
     @Override
     public void setToppings() {
         pizza.setToppings("Pepper, cheese and tomato");
+    }
+
+    @Override
+    public Pizza getPizza() {
+        return pizza;
     }
 }

@@ -11,4 +11,8 @@ public class MestrePizzer {
         builder.setDough();
         builder.setToppings();
     }
+
+    public Pizza getPizza() {
+        return builder.getPizza();
+    }
 }

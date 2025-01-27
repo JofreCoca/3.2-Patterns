@@ -11,4 +11,13 @@ public class Pizza {
     public void setSize(String size) {
         this.size = size;
     }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "size='" + size + '\'' +
+                ", dough='" + dough + '\'' +
+                ", toppings='" + toppings + '\'' +
+                '}';
+    }
 }
