@@ -1,3 +1,5 @@
+package Level_1_Exercise_1.Classes;
+
 public class Pizza {
     private String size;
     private String dough;

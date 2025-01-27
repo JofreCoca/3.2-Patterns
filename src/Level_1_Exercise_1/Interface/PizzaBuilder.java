@@ -1,4 +1,6 @@
-package Level_1_Exercise_1;
+package Level_1_Exercise_1.Interface;
+
+import Level_1_Exercise_1.Classes.Pizza;
 
 public interface PizzaBuilder {
     public void newPizza();

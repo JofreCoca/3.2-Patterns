@@ -1,4 +1,10 @@
-package Level_1_Exercise_1;
+package Level_1_Exercise_1.Main;
+
+import Level_1_Exercise_1.Classes.MestrePizzer;
+import Level_1_Exercise_1.Classes.Pizza;
+import Level_1_Exercise_1.Classes.hawaianaPizzaBuilder;
+import Level_1_Exercise_1.Classes.vegetarianPizzaBuilder;
+import Level_1_Exercise_1.Interface.PizzaBuilder;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package Level_1_Exercise_1;
+package Level_1_Exercise_1.Classes;
+
+import Level_1_Exercise_1.Interface.PizzaBuilder;
 
 public class vegetarianPizzaBuilder implements PizzaBuilder {
     protected Pizza pizza;
