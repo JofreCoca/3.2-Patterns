@@ -1,4 +1,6 @@
-public class vegetarianPizzaBuilder implements PizzaBuilder{
+package Level_1_Exercise_1;
+
+public class hawaianaPizzaBuilder implements PizzaBuilder {
     protected Pizza pizza;
 
     @Override
@@ -18,7 +20,7 @@ public class vegetarianPizzaBuilder implements PizzaBuilder{
 
     @Override
     public void setToppings() {
-        pizza.setToppings("Pepper, cheese and tomato");
+        pizza.setToppings("pineapple, cheese and tomato");
     }
 
     @Override
