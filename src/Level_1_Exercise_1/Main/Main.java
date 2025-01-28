@@ -15,12 +15,12 @@ public class Main {
         PizzaBuilder vegetarianPizzaBuilder = new vegetarianPizzaBuilder();
 
         metrePizzer.setPizzaBuilder(hawaiPizzaBuilder);
-        metrePizzer.construirPizza();
+        metrePizzer.construirPizza("median","fine");
         Pizza pizza = metrePizzer.getPizza();
         System.out.println(pizza);
 
         metrePizzer.setPizzaBuilder(vegetarianPizzaBuilder);
-        metrePizzer.construirPizza();
+        metrePizzer.construirPizza("small","gross");
         pizza = metrePizzer.getPizza();
         System.out.println(pizza);
     }

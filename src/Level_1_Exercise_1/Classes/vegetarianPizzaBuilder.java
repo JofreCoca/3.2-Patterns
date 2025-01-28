@@ -11,13 +11,13 @@ public class vegetarianPizzaBuilder implements PizzaBuilder {
     }
 
     @Override
-    public void setSize() {
-        pizza.setSize("median");
+    public void setSize(String size) {
+        pizza.setSize(size);
     }
 
     @Override
-    public void setDough() {
-        pizza.setDough("fine");
+    public void setDough(String dough) {
+        pizza.setDough(dough);
     }
 
     @Override

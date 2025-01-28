@@ -9,10 +9,10 @@ public class MestrePizzer {
         builder = pizzaBuilder;
     }
 
-    public void construirPizza() {
+    public void construirPizza(String size, String dought) {
         builder.newPizza();
-        builder.setSize();
-        builder.setDough();
+        builder.setSize(size);
+        builder.setDough(dought);
         builder.setToppings();
     }
 
