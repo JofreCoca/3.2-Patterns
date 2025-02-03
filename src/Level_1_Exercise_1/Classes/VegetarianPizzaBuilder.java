@@ -2,7 +2,7 @@ package Level_1_Exercise_1.Classes;
 
 import Level_1_Exercise_1.Interface.PizzaBuilder;
 
-public class vegetarianPizzaBuilder implements PizzaBuilder {
+public class VegetarianPizzaBuilder implements PizzaBuilder {
     protected Pizza pizza;
 
     @Override

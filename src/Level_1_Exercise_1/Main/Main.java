@@ -2,8 +2,8 @@ package Level_1_Exercise_1.Main;
 
 import Level_1_Exercise_1.Classes.MestrePizzer;
 import Level_1_Exercise_1.Classes.Pizza;
-import Level_1_Exercise_1.Classes.hawaianaPizzaBuilder;
-import Level_1_Exercise_1.Classes.vegetarianPizzaBuilder;
+import Level_1_Exercise_1.Classes.HawaianaPizzaBuilder;
+import Level_1_Exercise_1.Classes.VegetarianPizzaBuilder;
 import Level_1_Exercise_1.Interface.PizzaBuilder;
 
 public class Main {
@@ -11,8 +11,8 @@ public class Main {
 
         MestrePizzer metrePizzer = new MestrePizzer(); // Director
 
-        PizzaBuilder hawaiPizzaBuilder = new hawaianaPizzaBuilder();
-        PizzaBuilder vegetarianPizzaBuilder = new vegetarianPizzaBuilder();
+        PizzaBuilder hawaiPizzaBuilder = new HawaianaPizzaBuilder();
+        PizzaBuilder vegetarianPizzaBuilder = new VegetarianPizzaBuilder();
 
         metrePizzer.setPizzaBuilder(hawaiPizzaBuilder);
         metrePizzer.construirPizza("median","fine");
