@@ -1,9 +1,5 @@
 package Level_1_Exercise_1.Classes;
-
-import Level_1_Exercise_1.Interface.PizzaBuilder;
-
 import java.util.ArrayList;
-
 public class Pizza {
     private String size;
     private String dough;
@@ -15,7 +11,6 @@ public class Pizza {
     public void setToppings(ArrayList<String> toppings) {
         this.toppings = toppings;
     }
-
     @Override
     public String toString() {
         return "Pizza{" +
