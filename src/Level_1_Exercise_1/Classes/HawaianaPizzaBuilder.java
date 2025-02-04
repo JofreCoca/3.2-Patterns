@@ -2,12 +2,14 @@ package Level_1_Exercise_1.Classes;
 
 import Level_1_Exercise_1.Interface.PizzaBuilder;
 
+import java.util.ArrayList;
+
 public class HawaianaPizzaBuilder implements PizzaBuilder {
     protected Pizza pizza;
 
     @Override
     public void newPizza() {
-        pizza=new Pizza();
+        pizza=new Builder().getPizza();
     }
 
     @Override
@@ -21,8 +23,7 @@ public class HawaianaPizzaBuilder implements PizzaBuilder {
     }
 
     @Override
-    public void setToppings() {
-        pizza.setToppings("pineapple, cheese and tomato");
+    public void setToppings(ArrayList<String> toppings) {pizza.setToppings(toppings);
     }
 
     @Override
